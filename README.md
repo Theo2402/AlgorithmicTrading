@@ -1,7 +1,7 @@
-# CreditCard Fraud Detection
+# Credit Card Fraud Detection
 
 
-We'll use here the data from Kaggle. It can be downloaded here: https://www.kaggle.com/mlg-ulb/creditcardfraud
+We'll use here data from Kaggle. It can be downloaded here: https://www.kaggle.com/mlg-ulb/creditcardfraud
 
 I'll be using R for this little project.
 In this dataset we are trying to predict if a fraud was performed (Class = 1) or no (class = 0). Therefore we want to predict the "Class" column.
