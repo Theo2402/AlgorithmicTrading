@@ -1,10 +1,10 @@
 # Credit Card Fraud Detection
 
 
-We'll use here data from Kaggle. It can be downloaded here: https://www.kaggle.com/mlg-ulb/creditcardfraud
+In this post we'll use data from Kaggle. It can be downloaded here: https://www.kaggle.com/mlg-ulb/creditcardfraud
 
 I'll be using R for this little project.
-In this dataset we are trying to predict if a fraud was performed (Class = 1) or no (class = 0). Therefore we want to predict the "Class" column.
+In this dataset we are trying to predict whether a fraud was performed (Class = 1) or not (class = 0). Therefore, we want to predict the "Class" column.
 The authors performed a PCA. That's why the columns labels are in the form of "V + number".
 Time is the delay between the different transactions and the first transaction. Time is not relevant to predict a Fraud so we can drop the column.  
 ```bash
